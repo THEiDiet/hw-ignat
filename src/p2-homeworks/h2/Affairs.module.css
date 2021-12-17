@@ -1,3 +1,67 @@
-.someClass {
+.hwName {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    color: #3b6758;
+}
+.affairs {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    text-align: center;
 
+}
+.affairBody{
+    min-height: 200px;
+}
+.affair {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 5px;
+}
+.affair>*{
+    flex: 0 0 33.33%;
+}
+.affair>*:first-child{
+    text-align: left;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.btnCont{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.btn{
+
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background: #17da9f;
+    transition-duration: 300ms;
+}
+.btn:not(:last-child){
+    margin-right: 10px;
+}
+.active {
+    background: #056e50;
+}
+
+.high {
+    color: #fa9b72;
+}
+.middle{
+    color: #98cc84;
+}
+.low {
+    color: #8bccbc;
 }
