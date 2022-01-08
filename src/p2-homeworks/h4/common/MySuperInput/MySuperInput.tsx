@@ -4,7 +4,7 @@ import React, {
     InputHTMLAttributes,
     KeyboardEvent,
 } from "react";
-import s from './MySuperInput.module.css'
+import s from './MySuperInput.module.scss'
 
 type MySuperInputType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement> & {
     placeholder: string
@@ -43,7 +43,6 @@ export const MySuperInput: React.FC<MySuperInputType> = ({
 
     return (
         <div className={s.inputContainer}>
-
             <input type="text" onChange={onChangeHandler} onKeyPress={onEnterHandler}
                    className={`${s.inputClass} ${inputClassName ? inputClassName : ''}`}
                     {...restProps} />

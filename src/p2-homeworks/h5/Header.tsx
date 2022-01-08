@@ -18,9 +18,6 @@ function Header() {
                 <li><NavLink className={finalClass} to={PATH.JUNIOR}>Junior</NavLink></li>
                 <li><NavLink className={finalClass} to={PATH.JUNIOR_PLUS}>JuniorPlus</NavLink></li>
             </ul>
-
-
-
         </div>
     )
 }

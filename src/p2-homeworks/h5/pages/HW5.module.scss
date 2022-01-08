@@ -76,9 +76,8 @@ a {
 .hidden_menu_ticker:checked ~ .btn_menu span.first {
   top: 15px;
 }
-
 .hidden_menu_ticker:checked ~ .btn_menu span.third {
   top: -15px;
   background-color: #fcbb92;
-  transform: scale(1.5);
+  //transform: scale(1.5);
 }

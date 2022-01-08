@@ -1,5 +1,5 @@
-import React, {ChangeEvent, KeyboardEvent, MouseEvent} from 'react'
-import s from './Greeting.module.css'
+import React, {ChangeEvent} from 'react'
+import s from './Greeting.module.scss'
 
 type GreetingPropsType = {
     name: string

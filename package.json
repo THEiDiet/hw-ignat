@@ -23,7 +23,7 @@
     "web-vitals": "^1.0.1",
     "yarn": "^1.22.17"
   },
-  "homepage": "https://theidiet.github.io/home-work-ignat",
+  "homepage": "https://theidiet.github.io/hw-ignat/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -3,13 +3,13 @@ import s from './MyCheckbox.module.scss'
 
 
 type CheckBoxType = {
-    text?:string
+    text?: string
 }
-const MyCheckbox = ({text}:CheckBoxType) => {
+const MyCheckbox = ({text}: CheckBoxType) => {
     return (
         <div className={s.checkContainer}>
-            <input className={s.check} type="checkbox"/>
-            {text && <span className={s.text}>{text}</span>}
+            <input className={s.checkbox} id='checkbox' type="checkbox"/>
+            <label className={s.text} htmlFor="checkbox">{text ? text : 'check me'}</label>
         </div>
     );
 };

@@ -10,14 +10,16 @@
     justify-content: center;
 }
 
-
 .input {
-    padding: 5px 10px;
+    padding: 10px 15px;
     background: #275048;
     border-radius: 5px;
     border: none;
     margin-right: 10px;
     color: #96c2b3;
+    &:focus{
+        outline: none;
+    }
 }
 .error {
     border: 1px solid salmon;
@@ -60,6 +62,6 @@
     color: #fff !important;
 }
 .swalModal img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }

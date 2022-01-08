@@ -1,8 +1,7 @@
 import React, {ChangeEvent, useState, KeyboardEvent, MouseEvent} from 'react'
-import Greeting from './Greeting'
 import {UserType} from "./HW3";
 import swal from 'sweetalert'
-import s from './Greeting.module.css'
+import s from './Greeting.module.scss'
 import AlternativeGreetingPresent from "./AlternativeGreetingPresent";
 
 

@@ -4,7 +4,7 @@
 .superInput {
     padding: 10px;
     border-radius: 100px;
-    width: 500px;
+    max-width: 300px;
     display: inline-block;
     margin-bottom: 20px   ;
 }

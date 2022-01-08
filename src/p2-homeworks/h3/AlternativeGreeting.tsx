@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {v1} from "uuid";
-import s from "./Greeting.module.css";
+import s from "./Greeting.module.scss";
 import AlternativeGreetingContainer from "./AlternativeGreetingContainer";
 import {UserType} from "./HW3";
 

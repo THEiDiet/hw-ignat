@@ -1,5 +1,5 @@
-import React, {ChangeEvent, KeyboardEvent, MouseEvent} from 'react'
-import s from './Greeting.module.css'
+import React, {ChangeEvent} from 'react'
+import s from './Greeting.module.scss'
 
 type GreetingPropsType = {
     name: string
@@ -9,7 +9,6 @@ type GreetingPropsType = {
     totalUsers: number
 }
 
-// презентационная компонента (для верстальщика)
 const Greeting: React.FC<GreetingPropsType> = ({name, setNameCallback, addUser, error, totalUsers}) => {
 
     const inputClass = error ? s.input + ' ' + s.error : s.input
