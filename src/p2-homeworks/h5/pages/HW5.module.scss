@@ -1,0 +1,84 @@
+.wrapper {
+  padding: 0 10px 80px;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  max-width: 70%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.active {
+  font-weight: 700;
+  color: #fcbb92;
+}
+.hidden_menu_ticker {
+  display: none;
+}
+.btn_menu {
+  color: #fff;
+  padding: 2px 7px 0;
+  position: fixed;
+  top: calc(50% - 25px);
+  left: 5px;
+  cursor: pointer;
+  transition: left .23s;
+  z-index: 3;
+  width: 19px;
+  height: auto;
+  span {
+    display: block;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #fff;
+    margin: 10px 0 0;
+    transition: all .2s linear .23s, background-color .1s linear;
+    position: relative;
+    .first {
+      margin-top: 0;
+    }
+  }
+}
+.hidden_menu {
+  display: block;
+  position: fixed;
+  list-style:none;
+  padding: 50px 20px;
+  margin: 0;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 100%;
+  top: 0;
+  left: -250px;
+  transition: left .2s;
+  z-index: 2;
+  li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+.hidden_menu_ticker:checked ~ .btn_menu {
+  left: 220px;
+}
+.hidden_menu_ticker:checked ~ .hidden_menu {
+  left: 0;
+}
+.hidden_menu_ticker:checked ~ .btn_menu span.first {
+  top: 15px;
+}
+
+.hidden_menu_ticker:checked ~ .btn_menu span.third {
+  top: -15px;
+  background-color: #fcbb92;
+  transform: scale(1.5);
+}
