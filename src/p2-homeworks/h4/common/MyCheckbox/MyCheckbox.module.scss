@@ -1,5 +1,4 @@
 
-
 .checkbox {
   position: absolute;
   z-index: -1;
@@ -17,29 +16,29 @@
 .checkbox + label:before {
   content: '';
   position: absolute;
-  top: -1px;
+  top: 0px;
   left: 0;
-  width: 19px;
-  height: 18px;
-  border: 2px solid #ccc;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #9dd9d6;
   border-radius: 3px;
+  box-sizing: border-box;
 }
 
 /* Чекбокс в состоянии активен */
 .checkbox + label:after {
   content: '';
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
   position: absolute;
 }
 
 /* Фон чекбокса в состоянии активен */
 .checkbox:checked + label:after {
   position: absolute;
-  top: 2px;
-  left: 3.2px;
-  border: 1px solid white;
-  background: #413548;
-  height: 14px;
-  width: 14px;
+  content: url("./../../../../assets/check.svg");
 }
 
 .text {

@@ -75,7 +75,7 @@ function HW4() {
                     secondary
                 >Button 2</MySuperButton>
                 <MySuperInput placeholder={'Input something'} error={error} value={text} onChangeText={setText}/>
-                <MyCheckbox text={'check me'}/>
+                <MyCheckbox isChecked={checked} onChange={testOnChange} text={'check me'}/>
             </div>
         </div>
     )
