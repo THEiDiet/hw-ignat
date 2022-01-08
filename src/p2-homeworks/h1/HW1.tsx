@@ -1,7 +1,7 @@
 import React from 'react'
 import Message from './Message'
-import s from './Message.module.css'
-import AlternativeMessage from "./AlternativeMessage";
+import c from './../../p1-main/m1-ui/u1-app/App.module.scss'
+
 
 const messageData = {
     avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
@@ -13,22 +13,13 @@ const messageData = {
 function HW1() {
     return (
         <div>
-            <hr/>
-            <span className={s.hw1}>homeworks 1</span>
-
-            {/*should work (должно работать)*/}
-
+            <span className={c.hw__title}>homeworks 1</span>
             <Message
                 avatar={messageData.avatar}
                 name={messageData.name}
                 message={messageData.message}
                 time={messageData.time}
             />
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeMessage/>*/}
-            <hr/>
         </div>
     )
 }

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import-normalize;
+
+body {
+    background:url('./../../../assets/bg.jpg') center/cover repeat;
+}
+.app {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    &__title {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        margin: 20px 0;
+    }
+}
+.hw__title {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fcbb92;
+    margin: 0 0 20px 0;
+}
+.marginTop {
+    margin-top: 50px;
+}
