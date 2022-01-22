@@ -8,8 +8,11 @@ html, body {
     color: #96c2b3;
     width: 100%;
     min-height: 100vh;
-    height: 100%;
     font-size: 18px;
+}
+body {
+    background: rgb(0,17,36);
+    background: linear-gradient(0deg, rgb(6, 33, 40) 0%, rgba(13,39,41,1) 36%, rgb(18, 69, 79) 100%) center/contain no-repeat;
 }
 #root {
     width: 100%;
