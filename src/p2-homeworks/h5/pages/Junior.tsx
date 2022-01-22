@@ -1,9 +1,10 @@
 import React from 'react'
+import HW7 from "../../h7/HW7";
 
 function PreJunior() {
     return (
         <div>
-            Something will be here soon
+            <HW7/>
         </div>
     )
 }

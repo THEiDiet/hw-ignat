@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.span{
+  height: 40px;
+  cursor: pointer;
+  border-bottom: 2px solid #96c2b3;
+  padding: 10px 15px;
+  margin: 10px 0;
+  display: inline-block;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px 5px 0 0 ;
+  min-width: 200px;
+  position: relative;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
+}
+.pen {
+  position: absolute;
+  top: 10px;
+  right: 7px;
+  width: 20px;
+  height: 20px;
+  fill: #8bccbc;
+}

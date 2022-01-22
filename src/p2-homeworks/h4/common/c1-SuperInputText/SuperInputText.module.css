@@ -2,11 +2,21 @@
     position: relative;
 }
 .superInput {
+    height: 40px;
     padding: 10px;
-    border-radius: 100px;
+    border-radius: 5px 5px 0 0;
+    min-width: 200px;
     max-width: 300px;
     display: inline-block;
-    margin-bottom: 20px   ;
+    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.2);
+    border:none;
+    border-bottom: 2px solid #41b9c9;
+    outline: none;
+    caret-color: #96c2b3;
+    color: #a9d3c5;
+    font-size: 16px;
+    font-family: Raleway,sans-serif;
 }
 
 .errorInput {
