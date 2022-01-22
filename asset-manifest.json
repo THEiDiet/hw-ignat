@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hw-ignat/static/css/main.1c513beb.chunk.css",
+    "main.css": "/hw-ignat/static/css/main.a8122728.chunk.css",
     "main.js": "/hw-ignat/static/js/main.c0fc0a01.chunk.js",
     "main.js.map": "/hw-ignat/static/js/main.c0fc0a01.chunk.js.map",
     "runtime-main.js": "/hw-ignat/static/js/runtime-main.0471911e.js",
@@ -8,7 +8,7 @@
     "static/js/2.a2537916.chunk.js": "/hw-ignat/static/js/2.a2537916.chunk.js",
     "static/js/2.a2537916.chunk.js.map": "/hw-ignat/static/js/2.a2537916.chunk.js.map",
     "index.html": "/hw-ignat/index.html",
-    "static/css/main.1c513beb.chunk.css.map": "/hw-ignat/static/css/main.1c513beb.chunk.css.map",
+    "static/css/main.a8122728.chunk.css.map": "/hw-ignat/static/css/main.a8122728.chunk.css.map",
     "static/js/2.a2537916.chunk.js.LICENSE.txt": "/hw-ignat/static/js/2.a2537916.chunk.js.LICENSE.txt",
     "static/media/MyCheckbox.module.scss": "/hw-ignat/static/media/check.a39130ef.svg",
     "static/media/pen.99ddc7b6.svg": "/hw-ignat/static/media/pen.99ddc7b6.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.0471911e.js",
     "static/js/2.a2537916.chunk.js",
-    "static/css/main.1c513beb.chunk.css",
+    "static/css/main.a8122728.chunk.css",
     "static/js/main.c0fc0a01.chunk.js"
   ]
 }
