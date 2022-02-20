@@ -1,0 +1,22 @@
+.people {
+    min-height: 252px;
+}
+.man {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 300px;
+    &__age{
+
+    }
+    &__name{
+
+    }
+}
+.button__container {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 10px;
+
+}

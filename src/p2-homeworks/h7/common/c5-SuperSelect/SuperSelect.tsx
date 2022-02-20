@@ -23,9 +23,15 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
     }
 
     return (
-        <select className={s.select} onChange={onChangeCallback} {...restProps}>
-            {mappedOptions}
-        </select>
+        <>
+            <label htmlFor="id"/>
+            <div className={s.select}>
+                <select className={s.selectItem} id={'id'} onChange={onChangeCallback} {...restProps}>
+                    {mappedOptions}
+                </select>
+                <span className={s.focus}/>
+            </div>
+        </>
     )
 }
 

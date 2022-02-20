@@ -1,5 +1,12 @@
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
+}
+:root {
+    --select-border: #e3c59c;
+    --select-focus: rgb(95, 176, 190);
+    --select-arrow: rgb(95, 176, 190);
 }
 html, body {
     margin: 0;

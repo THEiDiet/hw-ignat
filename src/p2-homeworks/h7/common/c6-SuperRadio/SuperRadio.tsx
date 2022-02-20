@@ -22,9 +22,9 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
     }
 
     const mappedOptions: JSX.Element[] = options ? options.map((o, i) => (
-        <label key={name + '-' + i} className={s.label}>
+        <span key={o} className={s.inputRadio}>
             <input
-                className={s.inputCheckbox}
+                id={o}
                 type={'radio'}
                 name={o}
                 checked={value === o}
@@ -33,14 +33,14 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
                 {...restProps}
 
             />
-            {o}
-        </label>
+            <label key={name + '-' + i} htmlFor={o} className={s.label}>{o}</label>
+        </span>
     )) : []
 
     return (
-        <>
+        <div className={s.radioBtns}>
             {mappedOptions}
-        </>
+        </div>
     )
 }
 
