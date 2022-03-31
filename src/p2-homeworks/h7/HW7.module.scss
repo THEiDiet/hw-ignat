@@ -113,6 +113,7 @@ select:focus + .focus {
     width: 8px;
     height: 8px;
     position: absolute;
+    z-index: 10;
     left: 4px;
     bottom: 4.5px;
     border-radius: 10px;
