@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/hw-ignat/static/css/main.41d8ea93.chunk.css",
-    "main.js": "/hw-ignat/static/js/main.11b85766.chunk.js",
-    "main.js.map": "/hw-ignat/static/js/main.11b85766.chunk.js.map",
+    "main.css": "/hw-ignat/static/css/main.1b129f7f.chunk.css",
+    "main.js": "/hw-ignat/static/js/main.bab1dffc.chunk.js",
+    "main.js.map": "/hw-ignat/static/js/main.bab1dffc.chunk.js.map",
     "runtime-main.js": "/hw-ignat/static/js/runtime-main.0471911e.js",
     "runtime-main.js.map": "/hw-ignat/static/js/runtime-main.0471911e.js.map",
-    "static/js/2.5cb59533.chunk.js": "/hw-ignat/static/js/2.5cb59533.chunk.js",
-    "static/js/2.5cb59533.chunk.js.map": "/hw-ignat/static/js/2.5cb59533.chunk.js.map",
+    "static/js/2.1d6ec854.chunk.js": "/hw-ignat/static/js/2.1d6ec854.chunk.js",
+    "static/js/2.1d6ec854.chunk.js.map": "/hw-ignat/static/js/2.1d6ec854.chunk.js.map",
     "index.html": "/hw-ignat/index.html",
-    "static/css/main.41d8ea93.chunk.css.map": "/hw-ignat/static/css/main.41d8ea93.chunk.css.map",
-    "static/js/2.5cb59533.chunk.js.LICENSE.txt": "/hw-ignat/static/js/2.5cb59533.chunk.js.LICENSE.txt",
+    "static/css/main.1b129f7f.chunk.css.map": "/hw-ignat/static/css/main.1b129f7f.chunk.css.map",
+    "static/js/2.1d6ec854.chunk.js.LICENSE.txt": "/hw-ignat/static/js/2.1d6ec854.chunk.js.LICENSE.txt",
     "static/media/MyCheckbox.module.scss": "/hw-ignat/static/media/check.a39130ef.svg",
     "static/media/loader.7c0a66a0.svg": "/hw-ignat/static/media/loader.7c0a66a0.svg",
     "static/media/pen.73a53f8d.svg": "/hw-ignat/static/media/pen.73a53f8d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0471911e.js",
-    "static/js/2.5cb59533.chunk.js",
-    "static/css/main.41d8ea93.chunk.css",
-    "static/js/main.11b85766.chunk.js"
+    "static/js/2.1d6ec854.chunk.js",
+    "static/css/main.1b129f7f.chunk.css",
+    "static/js/main.bab1dffc.chunk.js"
   ]
 }
